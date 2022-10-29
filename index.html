@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <link rel="stylesheet" href="resume.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        *{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.header{
+    /* position: fixed; */
+    background-color: #1f1c3f;
+    width: 100vw;
+    height: 50px;
+}
+.header ul li{
+    list-style: none;
+    display: inline;
+    font-size:16px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-right: 40px;
+    letter-spacing: 2px;
+}
+.header ul{
+    line-height: 50px;
+    margin-left: 100px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.9;
+}
+.header ul li a:hover{
+    color: #b5e6db;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #b5e6db;
+    transition: 300ms;
+}
+body{
+    color: #fff;
+     background-color: #24293e;
+}
+.manu{
+    /* margin-top: 100px; */
+}
+.manu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.skillName{
+    /* opacity: 0; */
+    padding-bottom:1px ;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skillName p{
+    width:200px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    /* border-bottom: 3px solid #24afc1; */
+
+}
+.nameOfSoftware{
+    margin-top: 10px;
+}
+.name1{
+    
+    /* display: flex; */
+}
+.Name{
+    padding: 20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.range1{
+    margin: 10px 0px;
+    width: 350px;
+    height: 2px;
+    background-color: #ddd;
+}
+.lName1 ,.lName2{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
+    padding: 10px 0px;
+}
+.languageName1{
+    padding-top: 10px;
+}
+.rangelname1, .rangelname2{
+    width: 350px;
+    height: 2px ;
+    background-color: #ddd;
+    margin: 15px 0px;
+    
+}
+.fre{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px 0px;
+}
+.fre p1{
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: lightgreen;
+}
+.education {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.education p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.skillName1{
+    margin-top:20px ;
+}
+.skillName1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.na{
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+.html{
+    position: absolute;
+    margin-top: -510px;
+    margin-left: 340px;
+}
+/* body{ */
+    /* width: 100%; */
+    /* height: 1; */
+/* } */
+.a{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+}
+.java{
+    position: absolute;
+    margin-top: -425px;
+    margin-left: 350px;
+}
+.css{
+    position: absolute;
+    margin-top: -344px;
+    margin-left: 330px;
+}
+.react{
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 250px;
+}
+.english{
+    position: absolute;
+    margin-top: -152px;
+    margin-left: 350px;   
+}
+.hindi{
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 400px;   
+}
+.box{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #ccc;
+    filter: blur(75px);
+}
+.right ul{
+
+    margin-top: 10px;
+}
+.right ul li{
+    list-style: none;    
+}
+.right ul li p {
+    /* text-decoration: none; */
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right ul li{
+    margin-top: 10px;
+    margin-top: 10px;
+
+}
+.na p2{
+    width: 100px;
+}
+.right ul li a{
+    text-decoration: none;
+    color: lightcoral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px ;
+}
+ .describe{
+    font-size: 14px;
+    font-weight: 400 ;
+    color: #ccc;
+
+ }
+ .header p{
+    text-align: center;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;    
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 600px){
+    .manu{
+        display: grid;
+    }
+    .skillName{
+        margin-top:100px;
+    }
+    .html{
+        /* position: absolute; */
+        margin-top: -1900px;
+        margin-left: 360px;
+    }
+    .java{
+        margin-top: -1817px;
+        margin-left: 320px;
+    }
+    .css{
+        margin-top: -1733px;
+        margin-left: 360px
+    }
+    .react{
+        margin-top: -1652px;
+        margin-left: 200px;
+    }
+    .english{
+        margin-top: -1452px;
+        margin-left: 360px;
+    }
+    .hindi{
+        margin-top: -1370px;
+        margin-left: 390px;   
+    }
+    .na p2{
+        width: 100px;
+    }
+    .a3{
+        
+        margin-top: -50px;
+    
+    }
+    .b1{
+        position: absolute;
+        margin-top: 100px;
+    }
+}
+.line{
+    display: flex;
+}
+.l{
+    margin-left: -60px;
+    margin-top: 100px;
+    width: 170px;
+    height: 2px;
+    background-color: #ddd;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+.middle{
+    width: 400px;
+}
+.skillName1{
+    margin-top: 10px;
+}
+.b1{
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 100px;
+    margin-top: 10px;
+    position: absolute;
+}
+.a3{
+    /* position: static; */
+    margin-top: 23px;
+    margin-left: 20px;
+    position: absolute;
+}
+.b{
+    margin-top: 85px;
+    margin-left: 20px;
+}
+.c{
+    margin-top: 147px;
+    margin-left: 20px;
+}
+.a1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    /* position: absolute; */
+}
+.E10{
+    margin-top: 16px;
+    margin-left: -70px;
+
+}
+.E12{
+    margin-left: -70px;
+}
+.E13{
+    margin-left: -70px;
+}
+.a1 p3{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header "><p>resume</p></div>
+        <div class="manu">
+            <div class="box"></div>
+            <div class="left">
+                <div class="skillName"><p>skills</p></div>
+               <div class="nameOfSoftware">
+                <div class="name1">
+                    <div class="Name" style="color: royalblue;">HTML/HTML5</div>
+                    <div class="range1" style="background-color: royalblue;"></div>
+                </div>
+                <div class="name1">
+                    <div class="Name" style="color: pink;">javascript/Advanced Javascript</div>
+                    <div class="range1" style="background-color: pink"></div>
+                </div>
+                <div class="name1">
+                    <div class="Name" style="color: lightblue;">CSS/CSS3</div>
+                    <div class="range1" style="background-color: lightblue;"></div>
+                </div>
+                <div class="name1">
+                    <div class="Name" style="color: lightgreen;">REACT JS</div>
+                    <div class="range1" style="background-color: lightgreen;"></div>
+                </div>
+
+               </div>
+                <div class="skillName"><p>language</p></div>
+                <div class="languageName1">
+                    <div class="lName1" style="color: lightsalmon;">English</div>
+                    <div class="rangelname1" style="background-color: lightsalmon;"></div>
+
+                </div>
+                <div class="languageName1">
+                    <div class="lName2" style="color: lightseagreen;">Hindi</div>
+                    <div class="rangelname2" style="background-color: lightseagreen;"></div>
+ 
+                </div>  
+               
+
+
+        </div>
+        <div class="middle">
+            <div class="skillName"><p>experience</p></div>
+            <div class="fre">            <p1>fresher </p1>
+            </div>
+            <div class="skillName"><p>education</p></div>
+            <div class="line">
+                <div class="b1 a3 " data-aos="fade-down"></div>
+                <div class="b1 b" data-aos="fade-left"></div>
+                <div class="b1 c" data-aos="fade-up"></div>
+
+                <div class="l"></div>
+                <div class="deg">
+                    <div class="E10 a1" data-aos="fade-down">GBRC,Bodhgaya<br><p3>CBSE</p3></div>
+                <div class="E12 a1" data-aos="fade-left">Gaya college,Gaya<br><p3>BSEB</p3></div>
+                <div class="E13 a1" data-aos="fade-up">Gaya college,Gaya<br><p3>BCA</p3></div>
+                </div>
+            </div>
+            <div class="skillName1"><p>personal skills</p></div>
+           <div class="na"> <p2>Critive-Team Work,Organisation, Problem-<br>solving, Time management, Communication,<br> Reliability, Leadership,Adaptability,<br> Empathy
+            appart for that I have dedicated <br>individual with effective communication and <br>exceptional customer service skills seeking a client <br>relationship executive role where I can apply my <br>personal skills to increase customer satisfaction<br> and enhance <br>the company's reputation.
+           </p2></div>
+        </div>
+        <div class="right">
+            <div class="skillName"><p>Work</p></div>
+            <ul>
+                <li ><a  href="https://sunny8540.github.io/www.twitter.com_github.io/"><p>Twitter <span class="describe" data-aos="fade-up"> (Javascript/CSS/HTML)</span></p1></p>https://sunny8540.github.io/www.twitter.com_github.io/</a></li>
+                <li><a href=" https://sunny8540.github.io/WmouseOverElement.github.io/"><p>Blink<span class="describe" data-aos="fade-up">(set-timeout,set-timeInterval/CSS/HTML)</span></p1></p> https://sunny8540.github.io/WmouseOverElement.github.io/</a></li>
+                <li><a href="https://sunny8540.github.io/guessTheGame.github.io/"><p>Guess the Number<span class="describe" data-aos="fade-up">(math.random/css/HTML)</span></p>https://sunny8540.github.io/guessTheGame.github.io/</a></li>
+                <li><a href=" https://sunny8540.github.io/TimeTable.github.io/"><p>Time table<span class="describe" data-aos="fade-up">(Javascript/CSS/HTML)</span></p> https://sunny8540.github.io/TimeTable.github.io/</a></li>
+                <li><a href="https://sunny8540.github.io/Calculator.github.io/"><p>Calculator<span class="describe" data-aos="fade-up">(Javascript/CSS/HTML)</span></p>https://sunny8540.github.io/Calculator.github.io/</a></li>
+                <li><a href="https://sunny8540.github.io/BudgetApp.github.io/"><p>Simple Budget<span class="describe" data-aos="fade-up">(Javascript/CSS/HTML)</span></p>https://sunny8540.github.io/BudgetApp.github.io/</a></li>
+                <li><a href="https://sunny8540.github.io/gym--page.github.io/"><p>Gym Website<span class="describe" data-aos="fade-up">(CSS/HTML)</span></p>https://sunny8540.github.io/gym--page.github.io/</a></li>
+                <li><a href="https://sunny8540.github.io/gym--page.github.io/"><p>Timer<span class="describe" data-aos="fade-up">(loop,if-else)</span></p> https://sunny8540.github.io/timerr.github.io/</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="html a" data-aos="fade-right" style="background-color: royalblue; border:none;"></div>
+    <div class="java a"  data-aos="fade-right" style="background-color: lightpink; border:none;"></div>
+    <div class="css a"  data-aos="fade-right" style="background-color: lightblue; border:none;"></div>
+    <div class="react a"  data-aos="fade-right" style="background-color: lightgreen; border:none;"></div>
+    <div class="english a"  data-aos="fade-right" style="background-color: lightsalmon; border:none;"></div>
+    <div class="hindi a"  data-aos="fade-right" style="background-color: lightseagreen; border:none;" ></div>
+    </div>
+    <!-- aos data -->
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            
+            AOS.init(
+                {
+                    delay: 600
+                }
+            );
+          </script>
+     
+</body>
+</html>
